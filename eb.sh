@@ -14,5 +14,5 @@ docker run --rm \
   -v "$(pwd):/project" \
   -v "${HOME}/.aws:/root/.aws" \
   -v "${HOME}/.ssh:/root/.ssh" \
-  paulodiovani/aws-eb-cli \
+  beinbm/aws-eb-cli \
   $@
