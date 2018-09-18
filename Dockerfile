@@ -7,7 +7,6 @@ RUN apk -v --no-cache add \
         python \
         && \
     pip install --upgrade awsebcli
-VOLUME /root/.aws
-VOLUME /project
-WORKDIR /project
-ENTRYPOINT ["eb"]
+    
+VOLUME /app
+WORKDIR /app
