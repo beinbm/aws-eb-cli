@@ -5,8 +5,9 @@ RUN apk -v --no-cache add \
         openssh-client \
         py-pip \
         python \
+        zip \
         && \
-    pip install --upgrade awsebcli
+    pip install --upgrade awsebcli awscli
     
 VOLUME /app
 WORKDIR /app
